@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Grouping tags</title>
+    <style>
+        body{
+            font-family: Arial, Helvetica, sans-serif;
+            background-color: dimgray;
+            margin: 0px;
+        }
+        header{
+            background-color: white;
+            padding: 10px;
+            margin: 10px;
+        }
+        nav{
+            background-color: rgb(143, 143, 143);
+            padding: 3px;
+            box-shadow: 1px 1px 1px black;
+        }
+        nav > a{
+            text-decoration: none;
+            color: white;
+            font-weight: bold;
+            margin-right: 30px;
+        }
+        nav >  a:hover{
+            text-decoration: underline;
+        }
+        main{
+            background-color: white;
+            padding: 10px;
+            margin: 10px;
+            border-radius: 10px 30px;
+            box-shadow: 1px 2px 2px rgb(1, 1, 1);
+
+        }
+        article{
+            background-color: lightgrey;
+            padding: 5px;
+        }
+        article > aside{
+            background-color: rgb(120, 120, 120);
+        }
+        footer{
+            background-color: black;
+            padding: 4px;
+            margin: 0px;
+            color: aliceblue;
+            text-align: center;
+        }
+        footer > p{
+            margin: 0px;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>meu titulo</h1>
+        <nav>
+            <a href="#">aaaa</a>
+            <a href="#">bbbb</a>
+            <a href="#">cccc</a>
+            <a href="#">dddd</a>
+            <a href="#">eeee</a>
+        </nav>
+    </header>
+    <main>
+        <section id="assuntos">
+
+        </section>
+
+        <section id="noticias">
+            <article>
+                <h1>Historia</h1>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ullam, corrupti quam doloremque perferendis eveniet dolorem, odit alias iusto tempora in deserunt similique delectus nemo voluptas itaque maiores dignissimos nesciunt. Accusamus.</p>
+                <aside>
+                    <p>Artigo escrito por Ygor Silveira</p>
+                </aside>
+            </article>
+
+            <article>
+
+            </article>
+        </section>
+    </main>
+    <footer>
+        <p>Desenvolvido pelo Ygor</p>
+    </footer>
+</body>
+</html>
